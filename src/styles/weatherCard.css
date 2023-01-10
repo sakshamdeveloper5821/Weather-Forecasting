@@ -1,0 +1,81 @@
+.weather-card {
+    height: 150px;
+    text-align: center;
+}
+
+.weather-card .icon {
+    height: 50px;
+    max-width: 50px;
+    display: block;
+}
+
+.font-weight-bold {
+    font-weight: 700!important;
+}
+
+.weather.icon{
+    display: block;
+    width: 100%;
+}
+
+.weather-display {
+    height: 170px;
+    position: relative;
+    width: 100%;
+}
+.hourly{
+    background-color: lightSteelBlue;
+}
+
+.daily {
+    background-color: #CFD8DC;
+}
+
+.current-weather-display {
+    background-color: #ECEFF1;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.current-weather-display .weather-location {
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+.current-weather-display .weather-min-max-temp {
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+.current-weather-display .weather-current .weather-temp {
+    font-size: 3rem;
+    vertical-align: middle;
+}
+
+.current-weather-display .weather-condition .weather-icon {
+    height: 4rem;
+    vertical-align: middle;
+}
+
+.current-weather-display .weather-condition .weather-description {
+    font-size: 1.4rem;
+    vertical-align: middle;
+}
+
+.current-weather-display .weather-update {
+    font-size: 0.8rem;
+    vertical-align: middle;
+}
+
+.slick-arrow.slick-prev{
+    left: 0 !important;
+}
+
+.slick-arrow.slick-next{
+    right: 0 !important;
+}
+
+h2{
+    text-align: center;
+}
